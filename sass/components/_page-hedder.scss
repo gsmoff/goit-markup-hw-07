@@ -8,7 +8,17 @@
         margin-left: 93px;
         }
 }
+.page-header > .container {
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        align-items: center;
+    }
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+    }
 
+}
 .hedder-nav__iteam {
     margin-right: 50px;
     &:last-child {
@@ -70,6 +80,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-right: auto;
     min-height: 80px;
-    width: 100%;
+    // width: 100%;
 }

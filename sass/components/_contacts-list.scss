@@ -17,6 +17,7 @@ color: $secondary-text-color;
         @media screen and (min-width: 1200px) {
             display: flex;
             margin: 0;
+            flex-wrap: nowrap;
             justify-content: flex-end;
     
         }
